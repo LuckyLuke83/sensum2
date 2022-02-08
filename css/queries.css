@@ -132,11 +132,6 @@
     font-size: 2rem;
   }
 
-  .last-nav-link:link,
-  .last-nav-link:visited {
-    font-size: 2rem;
-  }
-
   .btn-mobile-nav {
     position: absolute;
     border: none;
@@ -148,6 +143,19 @@
 
   .icon-mobile-nav[name='close-outline'] {
     display: none;
+  }
+
+  .last-nav-link:link,
+  .last-nav-link:visited {
+    font-size: 2rem;
+    color: var(--white);
+    background-color: var(--primary2);
+  }
+
+  .last-nav-link:hover,
+  .last-nav-link:active {
+    color: var(--primary2);
+    background-color: var(--white);
   }
 }
 

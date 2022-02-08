@@ -10,10 +10,14 @@ btnNav.addEventListener('click', function () {
 
 //Closing NAV after clicking link
 
-// const btnInMobile = document
-//   .querySelector('.nav-open')
-//   .querySelector('.main-nav-link');
+const btnNavMenu = document.querySelectorAll('.btn_nav');
+console.log(btnNavMenu);
 
+btnNavMenu.forEach(function (link) {
+  link.addEventListener('click', function () {
+    headerEl.classList.remove('nav-open');
+  });
+});
 ///////////////////////////////////////////////////////////
 // Sticky navigation
 

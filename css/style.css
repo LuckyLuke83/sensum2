@@ -58,19 +58,18 @@
 .last-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: var(--white);
+  color: var(--primary2);
   font-weight: 500;
   font-size: 4rem;
   transition: all 0.3s;
   padding: 0.8rem 1.6rem;
   border-radius: 5px;
-  background-color: var(--primary2);
 }
 
 .last-nav-link:hover,
 .last-nav-link:active {
-  color: var(--primary2);
-  background-color: var(--background);
+  color: var(--white);
+  background-color: var(--primary2);
 }
 
 /* STICKY NAVIGATION */
@@ -282,9 +281,17 @@
 .cennik {
   display: grid;
   grid-template-columns: auto 15rem;
+  align-items: center;
+  justify-content: center;
   max-width: 670px;
   margin: auto;
+  background-color: var(--white);
   box-shadow: var(--shadow);
+}
+
+.description_btn {
+  text-align: center;
+  padding: 0.5rem;
 }
 
 /**************************/
